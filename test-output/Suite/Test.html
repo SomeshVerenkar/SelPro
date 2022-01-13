@@ -1,0 +1,309 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 12 12:31:09 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (262 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNG.Test0.demo()'><b>demo</b><br>Test class: TestNG.Test0<br/>
+<a href="#Output-331994761" onClick='toggleBox("Output-331994761", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-331994761" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-331994761">
+Hello jaan, true<br/>
+Hello World, False<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.Test0@3967e60c</td></tr>
+<tr>
+<td title='TestNG.InvocationCount.settings()'><b>settings</b><br>Test class: TestNG.InvocationCount<br/>
+<a href="#Output-1144068272" onClick='toggleBox("Output-1144068272", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1144068272" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1144068272">
+Settings<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.InvocationCount@1677d1</td></tr>
+<tr>
+<td title='TestNG.ToSkip_enabled.calls()'><b>calls</b><br>Test class: TestNG.ToSkip_enabled<br/>
+<a href="#Output-922511709" onClick='toggleBox("Output-922511709", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-922511709" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-922511709">
+Calls<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.ToSkip_enabled@59d016c9</td></tr>
+<tr>
+<td title='TestNG.ToSkip_enabled.chats()'><b>chats</b><br>Test class: TestNG.ToSkip_enabled<br/>
+<a href="#Output-1735507635" onClick='toggleBox("Output-1735507635", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1735507635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1735507635">
+Chats<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.ToSkip_enabled@59d016c9</td></tr>
+<tr>
+<td title='TestNG.InvocationCount.chats()'><b>chats</b><br>Test class: TestNG.InvocationCount<br/>
+<a href="#Output-1448525331" onClick='toggleBox("Output-1448525331", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1448525331" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1448525331">
+Chats<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.InvocationCount@1677d1</td></tr>
+<tr>
+<td title='TestNG.InvocationCount.calls()'><b>calls</b><br>Test class: TestNG.InvocationCount<br/>
+<a href="#Output-1948471365" onClick='toggleBox("Output-1948471365", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1948471365" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1948471365">
+Calls<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.InvocationCount@1677d1</td></tr>
+<tr>
+<td title='TestNG.InvocationCount.calls()'><b>calls</b><br>Test class: TestNG.InvocationCount<br/>
+<a href="#Output-1636506029" onClick='toggleBox("Output-1636506029", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1636506029" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1636506029">
+Calls<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.InvocationCount@1677d1</td></tr>
+<tr>
+<td title='TestNG.InvocationCount.calls()'><b>calls</b><br>Test class: TestNG.InvocationCount<br/>
+<a href="#Output-758348212" onClick='toggleBox("Output-758348212", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-758348212" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-758348212">
+Calls<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.InvocationCount@1677d1</td></tr>
+<tr>
+<td title='TestNG.ToSkip_enabled.calls()'><b>calls</b><br>Test class: TestNG.ToSkip_enabled<br/>
+<a href="#Output-728885526" onClick='toggleBox("Output-728885526", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-728885526" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-728885526">
+Calls<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.ToSkip_enabled@59d016c9</td></tr>
+<tr>
+<td title='TestNG.ToSkip_enabled.chats()'><b>chats</b><br>Test class: TestNG.ToSkip_enabled<br/>
+<a href="#Output-1362728240" onClick='toggleBox("Output-1362728240", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1362728240" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1362728240">
+Chats<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.ToSkip_enabled@59d016c9</td></tr>
+<tr>
+<td title='TestNG.InvocationCount.settings()'><b>settings</b><br>Test class: TestNG.InvocationCount<br/>
+<a href="#Output-1985836631" onClick='toggleBox("Output-1985836631", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1985836631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1985836631">
+Settings<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.InvocationCount@1677d1</td></tr>
+<tr>
+<td title='TestNG.Test0.demo1()'><b>demo1</b><br>Test class: TestNG.Test0<br/>
+<a href="#Output-928294079" onClick='toggleBox("Output-928294079", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-928294079" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-928294079">
+Hello Disney<br/>
+Hello World<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.Test0@3967e60c</td></tr>
+<tr>
+<td title='TestNG.Priority.chats()'><b>chats</b><br>Test class: TestNG.Priority<br/>
+<a href="#Output-1258084361" onClick='toggleBox("Output-1258084361", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1258084361" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1258084361">
+Chats<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.Priority@60d8c9b7</td></tr>
+<tr>
+<td title='TestNG.InvocationCount.chats()'><b>chats</b><br>Test class: TestNG.InvocationCount<br/>
+<a href="#Output-1047087935" onClick='toggleBox("Output-1047087935", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1047087935" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1047087935">
+Chats<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.InvocationCount@1677d1</td></tr>
+<tr>
+<td title='TestNG.Priority.calls()'><b>calls</b><br>Test class: TestNG.Priority<br/>
+<a href="#Output-96406857" onClick='toggleBox("Output-96406857", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-96406857" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-96406857">
+Calls<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.Priority@60d8c9b7</td></tr>
+<tr>
+<td title='TestNG.InvocationCount.chats()'><b>chats</b><br>Test class: TestNG.InvocationCount<br/>
+<a href="#Output-464887938" onClick='toggleBox("Output-464887938", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-464887938" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-464887938">
+Chats<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.InvocationCount@1677d1</td></tr>
+<tr>
+<td title='TestNG.ToSkip_enabled.chats()'><b>chats</b><br>Test class: TestNG.ToSkip_enabled<br/>
+<a href="#Output-1798219673" onClick='toggleBox("Output-1798219673", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1798219673" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1798219673">
+Chats<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.ToSkip_enabled@59d016c9</td></tr>
+<tr>
+<td title='TestNG.Priority.settings()'><b>settings</b><br>Test class: TestNG.Priority<br/>
+<a href="#Output-391914049" onClick='toggleBox("Output-391914049", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-391914049" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-391914049">
+Settings<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.Priority@60d8c9b7</td></tr>
+<tr>
+<td title='TestNG.ToSkip_enabled.calls()'><b>calls</b><br>Test class: TestNG.ToSkip_enabled<br/>
+<a href="#Output-1092572064" onClick='toggleBox("Output-1092572064", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1092572064" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1092572064">
+Calls<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNG.ToSkip_enabled@59d016c9</td></tr>
+</table><p>
+</body>
+</html>
