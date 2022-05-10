@@ -22,8 +22,8 @@ public class AlertPopup {
 		a.moveToElement(ele).perform();
 		Thread.sleep(3000);
 		
-		driver.findElement("By.xpath("//a[text()='Selenium Training']")").click();//failed
-		driver.findElement("By.xpath(//button[@type="submit"])")//pending
+		//driver.findElement("By.xpath("//a[text()='Selenium Training']")").click();//failed
+		//driver.findElement("By.xpath(//button[@type="submit"])")//pending
 	}
 
 }
